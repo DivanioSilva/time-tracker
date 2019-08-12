@@ -13,6 +13,7 @@ public class Tracker {
     private List<TimeEntry> entries;
 
     public void add(TimeEntry entry) {
+        String tet = "Teste do trigger do Jenkings.";
         entries.add(entry);
     }
 
